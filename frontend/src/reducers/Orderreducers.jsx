@@ -19,16 +19,7 @@ import {
     ORDER_LIST_MY_SUCCESS,
     ORDER_LIST_MY_FAIL,
     ORDER_LIST_MY_RESET,
-
-    ORDER_LIST_REQUEST,
-    ORDER_LIST_SUCCESS,
-    ORDER_LIST_FAIL,
-
-    ORDER_DELIVER_REQUEST,
-    ORDER_DELIVER_SUCCESS,
-    ORDER_DELIVER_FAIL,
-    ORDER_DELIVER_RESET,
-} from '../constant/Orderconstant'
+} from '../constants/Orderconstants'
 
 export const orderCreateReducer = (state = {}, action) => {
     switch (action.type) {

@@ -26,8 +26,8 @@ import {
     ORDER_DELIVER_SUCCESS,
     ORDER_DELIVER_FAIL,
     ORDER_DELIVER_RESET,
-} from '../constant/Orderconstant'
-import { CART_CLEAR_ITEMS,CART_RESET_SHIPPING_ADDRESS } from '../constant/Cartconstant'
+} from '../constants/Orderconstants'
+import { CART_CLEAR_ITEMS,CART_RESET_SHIPPING_ADDRESS } from '../constants/Cartconstants'
 export const createOrder = (order) => async (dispatch, getState) => {
     try {
         dispatch({

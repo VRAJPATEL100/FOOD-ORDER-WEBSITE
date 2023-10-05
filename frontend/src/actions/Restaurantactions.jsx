@@ -4,7 +4,7 @@ import { RESTAURANT_LIST_REQUEST,
     RESTAURANT_LIST_FAIL,
     RESTAURANT_DETAIL_REQUEST,
     RESTAURANT_DETAIL_SUCCESS,
-    RESTAURANT_DETAIL_FAIL } from '../constant/Restaurantconstant'
+    RESTAURANT_DETAIL_FAIL } from '../constants/Restaurantconstants'
 export const listRestaurants=(name)=>async(dispatch)=>{
     try{
         dispatch({type:RESTAURANT_LIST_REQUEST})

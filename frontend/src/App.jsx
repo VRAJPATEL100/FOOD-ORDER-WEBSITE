@@ -1,4 +1,4 @@
-import Navbar from './component/Navbar'
+import Navbar from './components/Navbar'
 import React from 'react'
 function App() {
   return (

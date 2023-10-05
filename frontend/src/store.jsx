@@ -1,7 +1,7 @@
 import {legacy_createStore,combineReducers,applyMiddleware} from 'redux'
 import thunk from 'redux-thunk'
 import {composeWithDevTools} from 'redux-devtools-extension'
-import { restaurantListReducer,restaurantDetailReducer } from './reducers/Restaurantreducer'
+import { restaurantListReducer,restaurantDetailReducer } from './reducers/Restaurantreducers'
 import { cartReducer } from './reducers/Cartreducers'
 import {userLoginReducer,userRegisterReducer,userDetailsReducer,userUpdateProfileReducer} from'./reducers/Userreducers'
 import { orderCreateReducer,orderDetailsReducer,orderPayReducer,orderListMyReducer } from './reducers/Orderreducers'

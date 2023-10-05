@@ -2,7 +2,7 @@ import axios from "axios";
 import { CART_ADD_ITEM,
     CART_REMOVE_ITEM,
     CART_SAVE_SHIPPING_ADDRESS,
-    CART_SAVE_PAYMENT_METHOD } from '../constant/Cartconstant'
+    CART_SAVE_PAYMENT_METHOD } from '../constants/Cartconstants'
 export const addtocart=(rid,mid,qty)=>async(dispatch,getState)=>{
 const {data}=await axios.get(`/api/restaurant/${rid}`)
 const fildata=data.content.filter((i)=>{

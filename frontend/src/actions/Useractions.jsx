@@ -13,8 +13,8 @@ import { USER_LOGIN_REQUEST,
     USER_UPDATE_PROFILE_REQUEST,
     USER_UPDATE_PROFILE_SUCCESS,
     USER_UPDATE_PROFILE_FAIL,
-    USER_UPDATE_PROFILE_RESET, } from '../constant/Userconstants'
-    import { ORDER_LIST_MY_RESET } from '../constant/Orderconstant'
+    USER_UPDATE_PROFILE_RESET, } from '../constants/Userconstants'
+    import { ORDER_LIST_MY_RESET } from '../constants/Orderconstants'
 export const login=(email,password)=>async(dispatch)=>{
     try{
         dispatch({
