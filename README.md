@@ -5,7 +5,7 @@ Integrated Django on the back end to manage user authentication, order processin
 
 HOW TO RUN THE CODE
 Create a folder on your device and download both the folders in it 
-Open Terminal and tun following commands one by one
+Open Terminal and run following commands one by one
 cd backend,
 pip install django,
 pip install pillow,
